@@ -39,7 +39,7 @@ export default function Login() {
         style={{ minHeight: "100vh" }}
       >
         <h1 className="text-primary">
-          <strong>reactor</strong>-pad-app
+          Swana's NoteBook
         </h1>
         <Button
           variant="contained"
