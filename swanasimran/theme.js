@@ -1,6 +1,7 @@
-import { funk } from '@theme-ui/presets'
+import { funk, system } from '@theme-ui/presets'
 export default {
-  ...funk,
+  
+ ...system,
   height: {
     height:"100%"
   },
