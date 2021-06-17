@@ -1,11 +1,12 @@
 /** @jsx jsx */ /** @jsxRuntime classic */ import { jsx } from "theme-ui";
 import Link from 'next/link'
 
+
 const Nav = () => (
   
-    <nav sx={{display: 'flex', alignItems: 'center',  justifyContent: 'space-between', variant: 'containers.page', height: '100%'}}>
+    <nav sx={{display: 'flex', alignItems: 'center', backgroundColor:"text",  justifyContent: 'center',mr:3, variant: 'containers.page', height: '100%'}}>
       <Link href="/">
-        <a sx={{fontWeight: 'bold', fontSize: 4, cursor: 'pointer'}}>S W A N A</a>
+        <a sx={{ fontSize: 4, cursor: 'pointer', fontFamily:"monospace", color :"background" }}>S W A N A</a>
       </Link>
 
 
@@ -14,3 +15,4 @@ const Nav = () => (
 )
 
 export default Nav
+

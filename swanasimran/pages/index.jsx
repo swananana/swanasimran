@@ -4,25 +4,39 @@ import {AnimatedText} from 'framer-motion'
 
 import theme from '../theme'
 
+
 export default () => {
     return (
-        <div>
-             <div sx={{fontWeight: 'bold', fontSize: 4, cursor: 'pointer'}}
-        >Hello Swana</div>
-        {/* <div>
-            <Word
-                duration={0.5}
-                fontColor="rgb(197, 22, 22)"
-                 fontSize={120}
+        <body sx={{
+            backgroundColor: "text",
+            height : '100%'
+        }}>
+        <div sx={{
             
-                 firstLine="First Line"
-                />
+            backgroundColor : "text",
+            display: 'flex',
+            height:'100vh',
+            width : 'auto',
 
-        </div> */}
-        
+            alignItems: "center",
+            //justifyContent:"center"
 
+            
+        }}>
+            <center>
+            <h2 sx={{
+              color :"background",
+              ml:'3'
+          }}>
+              Hello World, I'm Swana.
+          </h2>
+
+            </center>
+          
         </div>
-       
+            
+        </body>
+        
     )
 } 
 
