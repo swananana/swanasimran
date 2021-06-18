@@ -5,8 +5,17 @@ export default {
       "useCustomProperties": true,
       "initialColorMode": "system"
     },
+    // Custom classes import as variant : "card.name"
+    "ProjectCards":{
+      "color1": "#244F75",
+      "color2": "#60BFBF",
+      "color3": "#8C4B7E",
+      "color4": "#F8BB44",
+      "color5": "F24B4B",
+
+          },
     
-    
+
     "colors": {
       "text": "#000",
       "background": "#fff",
