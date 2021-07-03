@@ -17,14 +17,22 @@ export default {
     
 
     "colors": {
+      // "text": "#000",
+      // "background": "#fff",
+      // "primary": "#6D0000",
+      // "secondary": "#119",
+      // "muted": "#f6f6f6",
+      // "highlight": "#7f8fa6",
+      // "gray": "#777",
+      // "accent": "#609",
       "text": "#000",
       "background": "#fff",
-      "primary": "#33e",
-      "secondary": "#119",
-      "muted": "#f6f6f6",
-      "highlight": "#7f8fa6",
-      "gray": "#777",
-      "accent": "#609",
+      "primary": "#FF6584",
+      "secondary": "#ABE8E6",
+      "muted": "#F0D7D9",
+      "highlight": "#41B5AF",
+      "gray": "#A16AE8",
+      "accent": "#76D4EA",
       "modes": {
         "dark": {
           "text": "#fff",

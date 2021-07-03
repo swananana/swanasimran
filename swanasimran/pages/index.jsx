@@ -11,7 +11,7 @@ export default () => {
         
         <body sx={{
             backgroundColor: "text",
-            height : "calc(100vh - 39px)"
+            height : "calc(100vh - 37px)"
             
         }}>
         <div style={{
@@ -73,7 +73,7 @@ export default () => {
             <Link href="/">
                 <a sx={{ fontSize: 4, cursor: 'pointer', fontFamily:"monospace", color :"gray" }}> Achievements </a>
             </Link> |
-            <Link href="/Word">
+            <Link href="/word">
                 <a sx={{ fontSize: 4, cursor: 'pointer', fontFamily:"monospace", color :"primary" }}
                 
                 //onClick={() => router.push('/Word')}
