@@ -9,9 +9,13 @@ function Header() {
       </Head>
       <Head>
         <meta property="og:title" content="My new title" key="title" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
       </Head>
-      
+
     </div>
+      
+      
+    
   )
 }
 
