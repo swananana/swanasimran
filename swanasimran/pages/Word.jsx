@@ -3,10 +3,11 @@ import Link from 'next/link'
 import React from "react"
 import { motion } from "framer-motion"
 import { useState, useEffect } from 'react';
-//import "../static/hello"
+import "../static/hello"
 import { Helmet } from "react-helmet";
 
 // const size = window.innerWidth;
+// function script start
 
 
 export default function Word(){
@@ -29,10 +30,7 @@ export default function Word(){
           <link rel="style
           sheet" href="style.css" />
         </Head> */}
-    <body>
-      
-   
-          
+  <body>          
 
 <section className="strips" sx={{background : "#000"}}>
   <article className="strips__strip" sx={{fontFamily: "body"}}>
@@ -43,11 +41,12 @@ export default function Word(){
         <h2>Ettrics</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia sapiente deserunt consectetur, quod reiciendis corrupti quo ea aliquid! Repellendus numquam quo, voluptate. Suscipit soluta omnis quibusdam facilis, illo voluptates odit!</p>
         <p>
-          <a href="https://twitter.com/ettrics" target="_blank"><i class="fa fa-twitter"></i></a>
+          <a href="https://twitter.com/ettrics" target="_blank" style={{color: "white"}}>Know More!</a>
         </p>
       </div>
       
     </div>
+    <p className="strip__close">BACK</p>
   </article>
   <article className="strips__strip" sx={{fontFamily: "body"}}>
     <div className="strip__content">
@@ -60,6 +59,7 @@ export default function Word(){
         </p>
       </div>
     </div>
+    <p className="strip__close">BACK</p>
   </article>
   <article className="strips__strip" sx={{fontFamily: "body"}}>
     <div className="strip__content">
@@ -72,6 +72,7 @@ export default function Word(){
         </p>
       </div>
     </div>
+    <p className="strip__close">BACK</p>
   </article>
   <article className="strips__strip"sx={{fontFamily: "body"}}>
     <div className="strip__content">
@@ -84,6 +85,7 @@ export default function Word(){
         </p>
       </div>
     </div>
+    <p className="strip__close">BACK</p>
   </article>
   <article className="strips__strip" sx={{fontFamily: "body"}}>
     <div className="strip__content">
@@ -96,7 +98,9 @@ export default function Word(){
         </p>
       </div>
     </div>
+    <p className="strip__close">BACK</p>
   </article>
+  
   <i className="fa fa-close strip__close"></i>
 </section>
 

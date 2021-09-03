@@ -8,7 +8,10 @@ import {Head} from 'next/head';
 import Nav from '../pages/src/components/nav'
 import Word from './Word'
 import Header from './src/components/Header'
-// import "../static/hello"
+// if (typeof window !== "undefined") {
+//   require("jquery");
+// }
+import "../static/hello"
 import "../index.css"
 import {Helmet} from "react-helmet";
 
